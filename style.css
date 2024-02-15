@@ -1,0 +1,130 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FDFD96;
+}
+
+a {
+    text-decoration: none;
+    background-color: #FDFD96;
+    color: black;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    background-color: white;
+    width: 500px;
+    margin: 10px auto;
+    border: 5px solid black;
+    text-align: center;
+    padding: 8px;
+}
+
+.index-link {
+    background-color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 16px;
+    display: block;
+    border: 1px solid black;
+    width: 100px;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.index-title,
+.recipe-name {
+    border: 2px solid black;
+    width: 250px;
+    margin: 10px auto;
+    padding: 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.recipe-links a {
+    display: block;
+    font-weight: bolder;
+    border: 1px solid black;
+    width: 200px;
+    margin: 5px auto;
+    padding: 5px;
+}
+
+.credit-link {
+    border: 1px solid black;
+    padding: 3px;
+    background-color: white;
+}
+
+.recipe-img {
+    border: 2px solid #FDFD96;
+    height: auto;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.description-title,
+.ingredients-title,
+.steps-title {
+    text-decoration: underline #FDFD96;
+    text-align: center;
+    font-size: 1.17em;
+}
+
+.description {
+    border: 2px solid black;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.ingredients {
+    border: 2px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.steps {
+    border: 2px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.source {
+    font-weight: bolder;
+    display: block;
+    border: 1px solid black;
+    width: 120px;
+    margin: auto auto;
+    padding: 5px;
+}
+
+.recipe-desc,
+.recipe-ingredients,
+.recipe-steps {
+    background-color: #FDFD96;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.footer {
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+}
